@@ -1,0 +1,71 @@
+
+
+p{
+    
+    color: 2x red ;
+}
+
+body{
+    background-color:whitesmoke;
+    color: black;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh;  //view ponit height */
+    min-height: 100vh;
+
+}
+.maincontent{
+    flex-grow:1;
+}
+footer{
+    color: aquamarine;
+    border:2px solid ghostwhite;
+    margin: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+     margin-bottom: 48px;
+}
+h1{
+    font-size: 64px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+header a{
+    cursor: pointer;
+    margin-right: 20px;
+    color: black;
+    background-color: brown;
+    text-decoration: none;
+    text-align: center;
+    border:2px solid black;
+}
+
+#form{
+    margin: 24px -17px;;
+    padding:10px 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#b1{
+    cursor: pointer;
+    border: 1px solid #888888;
+     background: #888888;
+     padding: 8px;
+     color: white;
+}
+
+input {
+  border: 1px solid black;
+  padding: 8px;
+}
+
